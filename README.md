@@ -26,7 +26,7 @@ Setup and Installation
 Prerequisites
 # Before using this repository:
 
-CARLA: A high-fidelity simulator for autonomous driving research. 
+# CARLA: A high-fidelity simulator for autonomous driving research. 
 
 To download CARLA 0.9.15, please visit: https://github.com/carla-simulator/carla/releases . 
 
@@ -40,7 +40,7 @@ CONTAINER_PATH should be like: //home/tg22/containers/carla_15.sif
 
 CARLA_PATH should be like: ./home/tg22/carla_9_15/CarlaUE4.sh
 
-#After that please, 
+# Running Python, 
 
 Python 3.x: Python programming language (preferably Python 3.8.10).
 
