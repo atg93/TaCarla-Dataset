@@ -1,16 +1,45 @@
-The main goal of the CARLA Autonomous Driving Leaderboard is to evaluate the driving proficiency of autonomous agents in realistic traffic situations. The leaderboard serves as an open platform for the community to perform fair and reproducible evaluations, simplifying the comparison between different approaches.
+Autonomous Driving Data Collection for CARLA Leaderboard 2.0 Challenge
+This repository is designed to collect data samples for autonomous driving scenarios in the CARLA Leaderboard 2.0 challenge. The data collected from various autonomous driving simulations is intended to aid in the development, testing, and evaluation of AI models for real-world autonomous driving applications.
 
-Autonomous agents have to drive through a set of predefined routes. For each route, agents are initialized at a starting point and have to drive to a destination point. The agents will be provided with a description of the route. Routes will happen in a variety of areas, including freeways, urban scenes, and residential districts.
+Repository Overview
+This repository contains scripts and tools for:
 
-Agents will face multiple traffic situations based in the NHTSA typology, such as:
+Data collection from CARLA simulation
 
-* Lane merging
-* Lane changing
-* Negotiations at traffic intersections
-* Negotiations at roundabouts
-* Handling traffic lights and traffic signs
-* Coping with pedestrians, cyclists and other elements
+Preprocessing and formatting the collected data
 
-The user can change the weather of the simulation, allowing the evaluation of the agent in a variety of weather conditions, including daylight scenes, sunset, rain, fog, and night, among others.
+Organizing and storing data in a structure suitable for training autonomous driving models
 
-More information can be found [here](https://leaderboard.carla.org/)
+The collected dataset includes but is not limited to:
+
+Dynamic object detection
+
+Lane detection
+
+Planning and decision-making tasks
+
+Traffic light and pedestrian crossing scenarios
+
+Ego vehicle control data
+
+Setup and Installation
+Prerequisites
+Before using this repository, ensure that the following dependencies are installed:
+
+CARLA: A high-fidelity simulator for autonomous driving research.
+
+Python 3.x: Python programming language (preferably Python 3.7 or later).
+
+Required Python libraries:
+
+numpy
+
+pandas
+
+opencv-python
+
+matplotlib
+
+carla
+
+You can install the required Python libraries by running:
