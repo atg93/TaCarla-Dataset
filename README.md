@@ -42,17 +42,17 @@ CARLA_PATH should be like: ./home/tg22/carla_9_15/CarlaUE4.sh
 
 # Running Python, 
 
-Python 3.x: Python programming language (preferably Python 3.8.10).
+To run the code, you can simply create a virtual environment with the following commands:
 
 Required Python libraries in requirements.txt
 
-To run the code, one can simply create virtul env:
+To run the code, you can simply create a virtual environment with the following commands:
 conda create --name tacarla python=3.8
 source activate tacarla
 pip install -r requirements.txt
 
 or 
 
-Alternatively, singuarity container can be used from here: 
+Alternatively, you can use the Singularity container from here:
 
 The parameters in the main function of leaderboard_evaluator.py—'TOWN_NAME', 'code_path', 'DATASAVEPATH', and 'TEAMCODE_PATH'—need to be arranged properly for the code to run correctly. In a later release, these parameters will be added to config.yaml.
