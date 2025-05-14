@@ -63,4 +63,6 @@ The parameters in the main function of leaderboard_evaluator.py—'TOWN_NAME', '
 
 To begin collecting data, please run:
 
-python TaCarla_Dataset/leaderboard/leaderboard_evaluator.py --agent=/leaderboard/autoagents/traditional_agents_0.py --port=2000 --traffic-manager-port=6000 --debug=0 --track=MAP --record=1 --routes=train_data_trigger_point/SignalizedJunctionLeftTurn_1.xml
+python TaCarla_Dataset/leaderboard/leaderboard_evaluator.py --agent=/leaderboard/autoagents/traditional_agents_0.py --port=2000 --traffic-manager-port=6000 --debug=0 --track=MAP --record=1 --routes=SCENARIO_NAME
+
+SCENARIO_NAME should be like: train_data_trigger_point/SignalizedJunctionLeftTurn_1.xml
