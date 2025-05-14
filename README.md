@@ -1,4 +1,4 @@
-Autonomous Driving Data Collection for CARLA Leaderboard 2.0 Challenge
+The aim of this code is to demonstrate how the TaCarla dataset was collected for the Autonomous Driving Data Collection in the Carla Leaderboard 2.0 Challenge.
 This repository is designed to collect data samples for autonomous driving scenarios in the CARLA Leaderboard 2.0 challenge. The data collected from various autonomous driving simulations is intended to aid in the development, testing, and evaluation of AI models for real-world autonomous driving applications.
 
 Repository Overview
