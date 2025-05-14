@@ -24,13 +24,30 @@ Ego vehicle control data
 
 Setup and Installation
 Prerequisites
-Before using this repository, ensure that the following dependencies are installed:
+Before using this repository:
 
 CARLA: A high-fidelity simulator for autonomous driving research. To download CARLA 0.9.15, please visit: https://github.com/carla-simulator/carla/releases . For running the CARLA container, download the "singularity build carla_0.9.15.sif docker-archive://carla_0.9.15.tar" 
 
+To run Carla simulation please run this command: 
 
-Python 3.x: Python programming language (preferably Python 3.7 or later).
+singularity run --nv --bind /datasets,/workspace,/media *CONTAINER_PATH* *CARLA_PATH* -RenderOffScreen -graphicsadapter=0 -nosound -carla-rpc-port=2000
+
+CONTAINER_PATH should be like: //home/tg22/containers/carla_15.sif
+CARLA_PATH should be like: ./home/tg22/carla_9_15/CarlaUE4.sh
+
+After that please, 
+
+Python 3.x: Python programming language (preferably Python 3.8.10).
 
 Required Python libraries in requirements.txt
+
+To run the code, one can simply create virtul env:
+conda create --name tacarla python=3.8
+source activate tacarla
+pip install -r requirements.txt
+
+or 
+
+Alternatively, singuarity container can be used from here: 
 
 The parameters in the main function of leaderboard_evaluator.py—'TOWN_NAME', 'code_path', 'DATASAVEPATH', and 'TEAMCODE_PATH'—need to be arranged properly for the code to run correctly. In a later release, these parameters will be added to config.yaml.
