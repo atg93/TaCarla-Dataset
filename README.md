@@ -6,7 +6,7 @@ This repository contains scripts and tools for:
 
 Data collection from CARLA simulation
 
-Preprocessing and formatting the collected data
+Visualizing the Collected TaCarla Dataset
 
 Organizing and storing data in a structure suitable for training autonomous driving models
 
@@ -26,20 +26,10 @@ Setup and Installation
 Prerequisites
 Before using this repository, ensure that the following dependencies are installed:
 
-CARLA: A high-fidelity simulator for autonomous driving research.
+CARLA: A high-fidelity simulator for autonomous driving research. To download Carla 9.15 please check: https://github.com/carla-simulator/carla/releases
 
 Python 3.x: Python programming language (preferably Python 3.7 or later).
 
-Required Python libraries:
-
-numpy
-
-pandas
-
-opencv-python
-
-matplotlib
-
-carla
+Required Python libraries in requirements.txt
 
 You can install the required Python libraries by running:
