@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 or 
 
-Alternatively, you can use the Singularity container from here:
+Alternatively, you can use 'leaderboard.sif' which is the Singularity container from here:
 
 https://drive.google.com/file/d/1WEUG6WvVbzT1tB6IVhmmvjHbqvDF-sPK/view?usp=drive_link
 
