@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="052" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+      <position x="-721.8" y="4896.8" z="374.6" yaw="-244.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+        <distance value="120"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="456" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+      <position x="1847.5" y="2413.0" z="369.2" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+        <distance value="100"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2134" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+      <position x="1209.7" y="4735.8" z="370.4" yaw="0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+        <distance value="90"/>
+        <offset value="0.3"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2812" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+      <position x="-3331.4" y="4562.3" z="365.9" yaw="356.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+        <distance value="100"/>
+        <offset value="0.25"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2912" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+      <position x="-2863.3" y="783.3" z="316.3" yaw="251.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+        <distance value="90"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3053" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+      <position x="-721.8" y="4896.8" z="374.6" yaw="-244.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+        <distance value="120"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3456" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+      <position x="1847.5" y="2413.0" z="369.2" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+        <distance value="100"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5134" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+      <position x="1209.7" y="4735.8" z="370.4" yaw="0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+        <distance value="90"/>
+        <offset value="0.3"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5812" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+      <position x="-3331.4" y="4562.3" z="365.9" yaw="356.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+        <distance value="100"/>
+        <offset value="0.25"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5912" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+      <position x="-2863.3" y="783.3" z="316.3" yaw="251.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+        <distance value="90"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6053" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+      <position x="-721.8" y="4896.8" z="374.6" yaw="-244.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-557.5" y="4834.9" z="375.5" yaw="-179.9"/>
+        <distance value="120"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6456" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+      <position x="1847.5" y="2413.0" z="369.2" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="1923.4" y="2642.1" z="367.3" yaw="179.8"/>
+        <distance value="100"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8134" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+      <position x="1209.7" y="4735.8" z="370.4" yaw="0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="987.5" y="4894.2" z="371.1" yaw="-90.0"/>
+        <distance value="90"/>
+        <offset value="0.3"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8812" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+      <position x="-3331.4" y="4562.3" z="365.9" yaw="356.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-3504.6" y="4374.7" z="362.0" yaw="69.9"/>
+        <distance value="100"/>
+        <offset value="0.25"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8912" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+      <position x="-2863.3" y="783.3" z="316.3" yaw="251.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="InvadingTurn_4" type="InvadingTurn">
+        <trigger_point x="-2748.6" y="833.4" z="313.7" yaw="168.9"/>
+        <distance value="90"/>
+        <offset value="0.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

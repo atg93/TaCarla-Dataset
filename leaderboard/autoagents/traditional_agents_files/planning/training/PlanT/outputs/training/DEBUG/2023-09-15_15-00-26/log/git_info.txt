@@ -1,0 +1,16 @@
+Run started at: 15/09/2023 15:00:26
+Git state: 5c3b69b668cd76dc133a7860e47ef35e9ebcbd15
+Git commit: commit 5c3b69b668cd76dc133a7860e47ef35e9ebcbd15
+Author: Tugrul Gorgulu <tugrul.gorgulu@togg.com.tr>
+Date:   Fri Sep 15 14:59:11 2023 +0300
+
+    creating plant project
+Git branch: * main
+
+diff --git a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm b/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm
+deleted file mode 100644
+index fe9ac28..0000000
+Binary files a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm and /dev/null differ
+diff --git a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-wal b/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-wal
+deleted file mode 100644
+index e69de29..0000000

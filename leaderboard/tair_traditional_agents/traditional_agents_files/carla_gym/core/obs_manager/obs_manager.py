@@ -1,0 +1,22 @@
+# base class for observation managers
+
+
+class ObsManagerBase(object):
+
+    def __init__(self):
+        self._define_obs_space()
+
+    def _define_obs_space(self):
+        raise NotImplementedError
+
+    def attach_ego_vehicle(self, parent_actor):
+        raise NotImplementedError
+
+    def get_observation(self):
+        raise NotImplementedError
+
+    def clean(self):
+        raise NotImplementedError
+
+    def collect_data_for_future_prediction(self):
+        raise NotImplementedError

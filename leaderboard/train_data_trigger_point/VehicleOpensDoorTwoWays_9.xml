@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="952" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+      <position x="1173.5" y="5443.9" z="370.6" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+        <frequency from="30" to="85"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1231" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+      <position x="1467.6" y="5585.0" z="369.4" yaw="-0.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+        <frequency from="40" to="105"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3952" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+      <position x="1173.5" y="5443.9" z="370.6" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+        <frequency from="30" to="85"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4231" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+      <position x="1467.6" y="5585.0" z="369.4" yaw="-0.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+        <frequency from="40" to="105"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6952" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+      <position x="1173.5" y="5443.9" z="370.6" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1173.4" y="5324.2" z="371.0" yaw="89.9"/>
+        <frequency from="30" to="85"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7231" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+      <position x="1467.6" y="5585.0" z="369.4" yaw="-0.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="VehicleOpensDoorTwoWays_9" type="VehicleOpensDoorTwoWays">
+        <trigger_point x="1362.6" y="5454.7" z="370.0" yaw="89.8"/>
+        <frequency from="40" to="105"/>
+        <distance value="60"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

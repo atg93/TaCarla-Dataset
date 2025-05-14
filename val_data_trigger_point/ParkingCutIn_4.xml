@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="040" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="15.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="6928.8" y="3543.0" z="171.4" yaw="-0.6"/>
+      <position x="6989.0" y="3542.4" z="172.1" yaw="-0.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="6928.8" y="3543.0" z="171.4" yaw="-0.6"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="149" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="10.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="50.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="6773.1" y="4815.8" z="179.9" yaw="90.5"/>
+      <position x="6792.5" y="4931.7" z="180.4" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="6773.1" y="4815.8" z="179.9" yaw="90.5"/>
+        <direction value="right"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="983" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="5221.2" y="3303.3" z="157.1" yaw="269.8"/>
+      <position x="4401.2" y="4442.0" z="147.9" yaw="90.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="5221.2" y="3303.3" z="157.1" yaw="269.8"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1040" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="4.0"/>
+      <weather route_percentage="100" cloudiness="90.0" precipitation="50.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="8.0"/>
+    </weathers>
+    <waypoints>
+      <position x="6928.8" y="3543.0" z="171.4" yaw="-0.6"/>
+      <position x="6989.0" y="3542.4" z="172.1" yaw="-0.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="6928.8" y="3543.0" z="171.4" yaw="-0.6"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1149" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="50.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="30.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-45.0" fog_density="80.0"/>
+    </weathers>
+    <waypoints>
+      <position x="6773.1" y="4815.8" z="179.9" yaw="90.5"/>
+      <position x="6792.5" y="4931.7" z="180.4" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="6773.1" y="4815.8" z="179.9" yaw="90.5"/>
+        <direction value="right"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1983" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="0.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="75.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="5221.2" y="3303.3" z="157.1" yaw="269.8"/>
+      <position x="4401.2" y="4442.0" z="147.9" yaw="90.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="ParkingCutIn_4" type="ParkingCutIn">
+        <trigger_point x="5221.2" y="3303.3" z="157.1" yaw="269.8"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

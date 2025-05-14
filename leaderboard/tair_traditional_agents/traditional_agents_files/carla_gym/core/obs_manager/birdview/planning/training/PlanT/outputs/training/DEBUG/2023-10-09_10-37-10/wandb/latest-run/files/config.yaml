@@ -1,0 +1,112 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: huggingface
+    huggingface_version: 4.18.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.10
+    start_time: 1696837101
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      3:
+      - 13
+      - 16
+      4: 3.7.10
+      5: 0.12.10
+      6: 4.18.0
+      8:
+      - 5
+benchmark:
+  desc: null
+  value: longest6
+custom_sampler:
+  desc: null
+  value: false
+data_dir:
+  desc: null
+  value: /workspace/tg22/plant_dataset/data/PlanT/PlanT_data_1
+debug:
+  desc: null
+  value: false
+exp_folder_name:
+  desc: null
+  value: training
+expname:
+  desc: null
+  value: DEBUG
+gpus:
+  desc: null
+  value: 1
+lrDecay_epoch:
+  desc: null
+  value: 46
+model:
+  desc: null
+  value:
+    name: PlanT
+    network:
+      embd_pdrop: 0.1
+      hf_checkpoint: prajjwal1/bert-medium
+    pre_training:
+      forecastLoss_weight: 1
+      future_timestep: 1
+      multitask: true
+      precision_angle: 5
+      precision_pos: 7
+      precision_speed: 4
+      pretraining: forecast
+      quantize: true
+    training:
+      batch_size: 32
+      betas:
+      - 0.9
+      - 0.95
+      ckpt_path: log/
+      grad_norm_clip: 1.0
+      input_ego: false
+      learning_rate: 0.0001
+      max_NextRouteBBs: 2
+      max_epochs: 50
+      num_workers: 12
+      pred_len: 4
+      pretraining_path: none
+      remove_back: false
+      remove_velocity: None
+      route_only_wp: false
+      seq_len: 1
+      weight_decay: 0.1
+overfit:
+  desc: null
+  value: 0
+resume:
+  desc: null
+  value: true
+save_dir:
+  desc: null
+  value: outputs/training/DEBUG//2023-10-09_10-37-10
+seed:
+  desc: null
+  value: 1234
+trainset_size:
+  desc: null
+  value: 3
+use_caching:
+  desc: null
+  value: true
+user:
+  desc: null
+  value:
+    working_dir: /home/tg22/remote-pycharm/plant
+visualize:
+  desc: null
+  value: true
+wandb_name:
+  desc: null
+  value: training_PlanT_

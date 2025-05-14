@@ -1,0 +1,150 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            2,
+            48
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_03_rep0",
+                "status": "Completed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 55.87% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.86761,
+                    "score_composed": 86.761
+                },
+                "meta": {
+                    "route_length": 83.185,
+                    "duration_game": 13.55,
+                    "duration_system": 1721.596
+                },
+                "weather_state": {
+                    "cloudiness": 5.0,
+                    "dust_storm": 0.0,
+                    "fog_density": 2.0,
+                    "fog_distance": 0.0,
+                    "fog_falloff": 0.0,
+                    "mie_scattering_scale": 0.0,
+                    "precipitation": 0.0,
+                    "precipitation_deposits": 0.0,
+                    "rayleigh_scattering_scale": 0.03310000151395798,
+                    "scattering_intensity": 0.0,
+                    "sun_altitude_angle": 15.0,
+                    "sun_azimuth_angle": -1.0,
+                    "wetness": 0.0,
+                    "wind_intensity": 10.0
+                }
+            },
+            {
+                "index": 1,
+                "route_id": "RouteScenario_22_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 59.99% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 95.22,
+                    "score_penalty": 0.87997,
+                    "score_composed": 83.790743
+                },
+                "meta": {
+                    "route_length": 83.706,
+                    "duration_game": 13.35,
+                    "duration_system": 1766.035
+                },
+                "weather_state": {
+                    "cloudiness": 79.04427337646484,
+                    "dust_storm": 0.0,
+                    "fog_density": 3.0,
+                    "fog_distance": 0.0,
+                    "fog_falloff": 0.0,
+                    "mie_scattering_scale": 0.0,
+                    "precipitation": 2.8671767711639404,
+                    "precipitation_deposits": 50.47786331176758,
+                    "rayleigh_scattering_scale": 0.03310000151395798,
+                    "scattering_intensity": 0.0,
+                    "sun_altitude_angle": 45.0,
+                    "sun_azimuth_angle": -1.0,
+                    "wetness": 19.044275283813477,
+                    "wind_intensity": 12.389313697814941
+                }
+            }
+        ]
+    },
+    "entry_status": "Started",
+    "eligible": false,
+    "sensors": [
+        "carla_opendrive_map",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_camera",
+        "carla_lidar",
+        "carla_lidar",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_radar",
+        "carla_radar",
+        "carla_radar",
+        "carla_radar",
+        "carla_radar",
+        "carla_radar"
+    ],
+    "values": [],
+    "labels": []
+}

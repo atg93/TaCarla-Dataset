@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="1515" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+      <position x="1637.6" y="6065.4" z="367.8" yaw="179.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+        <distance value="140"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2627" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+      <position x="2800.8" y="6214.2" z="372.5" yaw="-170.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+        <distance value="130"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2721" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+      <position x="-1916.0" y="3284.7" z="358.1" yaw="146.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+        <distance value="135"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4515" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="50.0" wetness="50.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="50.0" precipitation_deposits="100.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+      <position x="1637.6" y="6065.4" z="367.8" yaw="179.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+        <distance value="140"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5627" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+      <position x="2800.8" y="6214.2" z="372.5" yaw="-170.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+        <distance value="130"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5721" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="50.0" wetness="50.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="50.0" precipitation_deposits="100.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+      <position x="-1916.0" y="3284.7" z="358.1" yaw="146.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+        <distance value="135"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7515" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="100.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+      <position x="1637.6" y="6065.4" z="367.8" yaw="179.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="2038.3" y="6085.1" z="369.6" yaw="-171.6"/>
+        <distance value="140"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8627" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+      <position x="2800.8" y="6214.2" z="372.5" yaw="-170.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="3300.6" y="6296.4" z="369.1" yaw="-170.7"/>
+        <distance value="130"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8721" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="100.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+      <position x="-1916.0" y="3284.7" z="358.1" yaw="146.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="YieldToEmergencyVehicle_4" type="YieldToEmergencyVehicle">
+        <trigger_point x="-1532.0" y="3118.6" z="347.5" yaw="166.7"/>
+        <distance value="135"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

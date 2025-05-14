@@ -1,0 +1,59 @@
+{
+  "user": {
+    "working_dir": "/home/tg22/remote-pycharm/plant"
+  },
+  "model": {
+    "name": "PlanT",
+    "training": {
+      "max_epochs": 50,
+      "batch_size": 32,
+      "learning_rate": 0.0001,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "grad_norm_clip": 1.0,
+      "weight_decay": 0.1,
+      "ckpt_path": "log/",
+      "num_workers": 12,
+      "pred_len": 4,
+      "seq_len": 1,
+      "max_NextRouteBBs": 2,
+      "input_ego": false,
+      "remove_velocity": "None",
+      "route_only_wp": false,
+      "remove_back": false,
+      "pretraining_path": "none"
+    },
+    "pre_training": {
+      "pretraining": "forecast",
+      "multitask": true,
+      "forecastLoss_weight": 1,
+      "future_timestep": 1,
+      "quantize": true,
+      "precision_pos": 7,
+      "precision_speed": 4,
+      "precision_angle": 5
+    },
+    "network": {
+      "hf_checkpoint": "prajjwal1/bert-medium",
+      "embd_pdrop": 0.1
+    }
+  },
+  "exp_folder_name": "training",
+  "lrDecay_epoch": 46,
+  "seed": 1234,
+  "debug": false,
+  "visualize": true,
+  "overfit": 0,
+  "resume": true,
+  "use_caching": true,
+  "custom_sampler": false,
+  "gpus": 1,
+  "trainset_size": 3,
+  "benchmark": "longest6",
+  "expname": "DEBUG",
+  "wandb_name": "training_PlanT_",
+  "save_dir": "outputs/training/DEBUG//2023-09-15_14-49-12",
+  "data_dir": "/home/tg22/remote-pycharm/plant/data/PlanT/PlanT_data_1"
+}

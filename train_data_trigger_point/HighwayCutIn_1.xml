@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="1513" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+      <position x="2516.5" y="6168.4" z="369.3" yaw="188.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+        <other_actor_location x="2749.4" y="6185.4" z="371.9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1617" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+      <position x="-17.3" y="3100.5" z="360.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+        <other_actor_location x="-624.6" y="3131.3" z="359.1"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2611" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+      <position x="3100.6" y="3116.4" z="365.1" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+        <other_actor_location x="2744.9" y="3150.0" z="363.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="275" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+      <position x="-2531.2" y="5886.3" z="379.4" yaw="-100.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+        <other_actor_location x="-2306.1" y="6204.2" z="378.6"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4513" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="50.0" wetness="50.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="50.0" precipitation_deposits="100.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+      <position x="2516.5" y="6168.4" z="369.3" yaw="188.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+        <other_actor_location x="2749.4" y="6185.4" z="371.9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4617" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+      <position x="-17.3" y="3100.5" z="360.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+        <other_actor_location x="-624.6" y="3131.3" z="359.1"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5611" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+      <position x="3100.6" y="3116.4" z="365.1" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+        <other_actor_location x="2744.9" y="3150.0" z="363.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="575" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="50.0" wetness="50.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="50.0" precipitation_deposits="100.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+      <position x="-2531.2" y="5886.3" z="379.4" yaw="-100.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+        <other_actor_location x="-2306.1" y="6204.2" z="378.6"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7513" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="100.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+      <position x="2516.5" y="6168.4" z="369.3" yaw="188.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2793.5" y="6216.5" z="372.4" yaw="-170.7"/>
+        <other_actor_location x="2749.4" y="6185.4" z="371.9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7617" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+      <position x="-17.3" y="3100.5" z="360.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-703.5" y="3104.2" z="355.5" yaw="1.3"/>
+        <other_actor_location x="-624.6" y="3131.3" z="359.1"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8611" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+      <position x="3100.6" y="3116.4" z="365.1" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="2696.4" y="3116.9" z="359.1" yaw="-0.0"/>
+        <other_actor_location x="2744.9" y="3150.0" z="363.2"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="875" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="100.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+      <position x="-2531.2" y="5886.3" z="379.4" yaw="-100.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HighwayCutIn_1" type="HighwayCutIn">
+        <trigger_point x="-2287.5" y="6293.4" z="378.5" yaw="233.5"/>
+        <other_actor_location x="-2306.1" y="6204.2" z="378.6"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

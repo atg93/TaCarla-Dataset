@@ -1,0 +1,570 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="443" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+      <position x="2653.2" y="2370.5" z="360.3" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+        <frequency value="90"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="522" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+      <position x="2655.5" y="2244.7" z="359.5" yaw="269.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="100"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="642" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+      <position x="3376.3" y="-1731.2" z="317.7" yaw="-171.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+        <frequency value="110"/>
+        <distance value="135"/>
+        <bicycle_speed value="8"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="826" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+      <position x="-3988.5" y="2040.6" z="337.4" yaw="42.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+        <frequency value="140"/>
+        <distance value="100"/>
+        <bicycle_drive_distance value="150"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1358" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+      <position x="2857.6" y="4480.9" z="362.9" yaw="9.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+        <frequency value="75"/>
+        <distance value="60"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2052" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+      <position x="-1194.1" y="5374.3" z="376.4" yaw="-90.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2238" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+      <position x="2957.2" y="-650.9" z="329.3" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+        <frequency value="90"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="50"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2529" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+      <position x="2913.1" y="-94.2" z="328.7" yaw="180.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="287" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+      <position x="-3752.6" y="3951.2" z="356.8" yaw="61.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="80"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="297" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+      <position x="-2234.9" y="1177.0" z="320.3" yaw="217.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+        <frequency value="75"/>
+        <distance value="90"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3443" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+      <position x="2653.2" y="2370.5" z="360.3" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+        <frequency value="90"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3522" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+      <position x="2655.5" y="2244.7" z="359.5" yaw="269.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="100"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3642" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+      <position x="3376.3" y="-1731.2" z="317.7" yaw="-171.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+        <frequency value="110"/>
+        <distance value="135"/>
+        <bicycle_speed value="8"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3826" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+      <position x="-3988.5" y="2040.6" z="337.4" yaw="42.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+        <frequency value="140"/>
+        <distance value="100"/>
+        <bicycle_drive_distance value="150"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4358" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+      <position x="2857.6" y="4480.9" z="362.9" yaw="9.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+        <frequency value="75"/>
+        <distance value="60"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5052" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+      <position x="-1194.1" y="5374.3" z="376.4" yaw="-90.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5238" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+      <position x="2957.2" y="-650.9" z="329.3" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+        <frequency value="90"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="50"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5529" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+      <position x="2913.1" y="-94.2" z="328.7" yaw="180.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="587" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+      <position x="-3752.6" y="3951.2" z="356.8" yaw="61.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="80"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="597" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+      <position x="-2234.9" y="1177.0" z="320.3" yaw="217.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+        <frequency value="75"/>
+        <distance value="90"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6443" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+      <position x="2653.2" y="2370.5" z="360.3" yaw="89.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2653.0" y="2219.4" z="359.1" yaw="89.9"/>
+        <frequency value="90"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6522" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+      <position x="2655.5" y="2244.7" z="359.5" yaw="269.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2655.7" y="2358.4" z="360.3" yaw="269.9"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="100"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6642" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+      <position x="3376.3" y="-1731.2" z="317.7" yaw="-171.8"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3640.7" y="-1578.9" z="312.6" yaw="-128.3"/>
+        <frequency value="110"/>
+        <distance value="135"/>
+        <bicycle_speed value="8"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6826" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+      <position x="-3988.5" y="2040.6" z="337.4" yaw="42.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-4236.6" y="1815.8" z="328.0" yaw="42.2"/>
+        <frequency value="140"/>
+        <distance value="100"/>
+        <bicycle_drive_distance value="150"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7358" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+      <position x="2857.6" y="4480.9" z="362.9" yaw="9.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2599.2" y="4439.1" z="361.5" yaw="9.2"/>
+        <frequency value="75"/>
+        <distance value="60"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8052" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+      <position x="-1194.1" y="5374.3" z="376.4" yaw="-90.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-1193.5" y="5546.2" z="375.9" yaw="-90.2"/>
+        <frequency value="85"/>
+        <distance value="70"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8238" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+      <position x="2957.2" y="-650.9" z="329.3" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="2836.2" y="-650.5" z="331.6" yaw="-0.4"/>
+        <frequency value="90"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="50"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8529" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+      <position x="2913.1" y="-94.2" z="328.7" yaw="180.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="3147.6" y="-94.2" z="335.1" yaw="180.0"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="70"/>
+        <bicycle_speed value="9"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="887" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+      <position x="-3752.6" y="3951.2" z="356.8" yaw="61.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-3884.1" y="3786.2" z="347.2" yaw="77.1"/>
+        <frequency value="100"/>
+        <distance value="80"/>
+        <bicycle_drive_distance value="80"/>
+        <bicycle_speed value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="897" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+      <position x="-2234.9" y="1177.0" z="320.3" yaw="217.5"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="HazardAtSideLaneTwoWays_3" type="HazardAtSideLaneTwoWays">
+        <trigger_point x="-2062.7" y="1241.3" z="319.6" yaw="193.9"/>
+        <frequency value="75"/>
+        <distance value="90"/>
+        <bicycle_drive_distance value="60"/>
+        <bicycle_speed value="11"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

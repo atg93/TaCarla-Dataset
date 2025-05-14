@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="310" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="15.0" precipitation="20.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="30.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1317.35" y="1219.67" z="157.00" yaw="-27.88"/>
+      <position x="1218.7" y="1014.0" z="157.0" yaw="156.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTrafficV2_1" type="MergerIntoSlowTrafficV2">
+        <trigger_point x="1317.35" y="1219.67" z="157.00" yaw="-27.88"/>
+        <start_actor_flow x="1339.1" y="1245.6" z="156.6"/>
+        <end_actor_flow x="1402.6" y="1118.2" z="157.0"/>
+        <source_dist_interval from="15" to="30"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="530" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="25.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-149.4" y="-1297.7" z="168.0" yaw="-74.8"/>
+      <position x="969.8" y="-2271.7" z="154.6" yaw="-59.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTrafficV2_1" type="MergerIntoSlowTrafficV2">
+        <trigger_point x="-149.4" y="-1297.7" z="168.0" yaw="-74.8"/>
+        <start_actor_flow x="-113.1" y="-1300.8" z="167.8"/>
+        <end_actor_flow x="-175.4" y="-1430.1" z="168.0"/>
+        <source_dist_interval from="15" to="35"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1310" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="25.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-45.0" fog_density="6.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1317.35" y="1219.67" z="157.00" yaw="-27.88"/>
+      <position x="1218.7" y="1014.0" z="157.0" yaw="156.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTrafficV2_1" type="MergerIntoSlowTrafficV2">
+        <trigger_point x="1317.35" y="1219.67" z="157.00" yaw="-27.88"/>
+        <start_actor_flow x="1339.1" y="1245.6" z="156.6"/>
+        <end_actor_flow x="1402.6" y="1118.2" z="157.0"/>
+        <source_dist_interval from="15" to="30"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1530" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="90.0" precipitation="40.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="35.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-149.4" y="-1297.7" z="168.0" yaw="-74.8"/>
+      <position x="969.8" y="-2271.7" z="154.6" yaw="-59.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTrafficV2_1" type="MergerIntoSlowTrafficV2">
+        <trigger_point x="-149.4" y="-1297.7" z="168.0" yaw="-74.8"/>
+        <start_actor_flow x="-113.1" y="-1300.8" z="167.8"/>
+        <end_actor_flow x="-175.4" y="-1430.1" z="168.0"/>
+        <source_dist_interval from="15" to="35"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

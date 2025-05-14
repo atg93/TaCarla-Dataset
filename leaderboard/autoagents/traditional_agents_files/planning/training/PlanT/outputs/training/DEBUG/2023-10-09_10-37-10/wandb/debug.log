@@ -1,0 +1,38 @@
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_setup.py:_flush():75] Loading settings from /home/tg22/.config/wandb/settings
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_setup.py:_flush():75] Loading settings from /home/tg22/remote-pycharm/plant/training/PlanT/outputs/training/DEBUG/2023-10-09_10-37-10/wandb/settings
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'training/PlanT/lit_train.py', 'program': '/home/tg22/remote-pycharm/plant/training/PlanT/lit_train.py'}
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_init.py:_log_setup():386] Logging user logs to /home/tg22/remote-pycharm/plant/training/PlanT/outputs/training/DEBUG/2023-10-09_10-37-10/wandb/run-20231009_103821-1t8kxfx0/logs/debug.log
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_init.py:_log_setup():387] Logging internal logs to /home/tg22/remote-pycharm/plant/training/PlanT/outputs/training/DEBUG/2023-10-09_10-37-10/wandb/run-20231009_103821-1t8kxfx0/logs/debug-internal.log
+2023-10-09 10:38:21,184 INFO    MainThread:3103022 [wandb_init.py:init():420] calling init triggers
+2023-10-09 10:38:21,185 INFO    MainThread:3103022 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {'user': {'working_dir': '/home/tg22/remote-pycharm/plant'}, 'model': {'name': 'PlanT', 'training': {'max_epochs': 50, 'batch_size': 32, 'learning_rate': 0.0001, 'betas': [0.9, 0.95], 'grad_norm_clip': 1.0, 'weight_decay': 0.1, 'ckpt_path': 'log/', 'num_workers': 12, 'pred_len': 4, 'seq_len': 1, 'max_NextRouteBBs': 2, 'input_ego': False, 'remove_velocity': 'None', 'route_only_wp': False, 'remove_back': False, 'pretraining_path': 'none'}, 'pre_training': {'pretraining': 'forecast', 'multitask': True, 'forecastLoss_weight': 1, 'future_timestep': 1, 'quantize': True, 'precision_pos': 7, 'precision_speed': 4, 'precision_angle': 5}, 'network': {'hf_checkpoint': 'prajjwal1/bert-medium', 'embd_pdrop': 0.1}}, 'exp_folder_name': 'training', 'lrDecay_epoch': 46, 'seed': 1234, 'debug': False, 'visualize': True, 'overfit': 0, 'resume': True, 'use_caching': True, 'custom_sampler': False, 'gpus': 1, 'trainset_size': 3, 'benchmark': 'longest6', 'expname': 'DEBUG', 'wandb_name': 'training_PlanT_', 'save_dir': 'outputs/training/DEBUG//2023-10-09_10-37-10', 'data_dir': '/workspace/tg22/plant_dataset/data/PlanT/PlanT_data_1'}
+2023-10-09 10:38:21,185 INFO    MainThread:3103022 [wandb_init.py:init():471] starting backend
+2023-10-09 10:38:21,185 INFO    MainThread:3103022 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-09 10:38:21,194 INFO    MainThread:3103022 [backend.py:ensure_launched():219] starting backend process...
+2023-10-09 10:38:21,201 INFO    MainThread:3103022 [backend.py:ensure_launched():225] started backend process with pid: 3137204
+2023-10-09 10:38:21,202 INFO    MainThread:3103022 [wandb_init.py:init():480] backend started and connected
+2023-10-09 10:38:21,208 INFO    MainThread:3103022 [wandb_init.py:init():550] updated telemetry
+2023-10-09 10:38:21,232 INFO    MainThread:3103022 [wandb_init.py:init():581] communicating current version
+2023-10-09 10:38:21,856 INFO    MainThread:3103022 [wandb_init.py:init():586] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-10-09 10:38:21,856 INFO    MainThread:3103022 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2023-10-09 10:38:42,170 WARNING MainThread:3103022 [wandb_init.py:init():972] interrupted
+Traceback (most recent call last):
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 951, in init
+    run = wi.init()
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 597, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/tg22/.conda/envs/plant/lib/python3.7/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

@@ -1,0 +1,8 @@
+[2023-10-09 10:37:10,953][root][INFO] - Longest6 training with all towns
+[2023-10-09 10:37:13,996][root][INFO] - Found 210 Route folders containing 3 datasets.
+[2023-10-09 10:38:19,584][root][INFO] - Train set size: 574126
+[2023-10-09 10:38:19,584][root][INFO] - Validation set size: 11483
+[2023-10-09 10:38:19,584][root][INFO] - Use default sampler
+[2023-10-09 10:38:19,596][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpo_x0ki0c
+[2023-10-09 10:38:19,596][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpo_x0ki0c/_remote_module_non_scriptable.py
+[2023-10-09 10:38:20,484][training.PlanT.model][INFO] - number of parameters: 4.172164e+07

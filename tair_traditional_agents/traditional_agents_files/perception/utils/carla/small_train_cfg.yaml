@@ -1,0 +1,33 @@
+next_point_distance: 20
+lane_change_freq: 4
+random_teleport_freq: 9
+weather_change_freq: 10
+duration: 15000
+
+image_path: '/home/io22/carla_lane/train'
+annotation_path: '/home/io22/carla_lane/annotations/train'
+
+sim_parameters:
+  host: localhost
+  port: 2000
+  delta_seconds: 0.05
+  tm_seed: 8
+  weather: ClearSunset
+  town: Town10HD
+  main_vehicle:
+    name: ego_vehicle
+    type: vehicle.tesla.model3
+    control: manuel
+    sensors: rgb_instance_camera.json
+    seed1: 5
+  npc_params:
+    npc_number: 100
+    npc_types1: ["vehicle.audi.a2", "vehicle.audi.etron",
+                "vehicle.bmw.grandtourer", "vehicle.ford.mustang"]
+    seed: 6
+    autopilot: True
+    speed_difference: -100
+
+
+
+

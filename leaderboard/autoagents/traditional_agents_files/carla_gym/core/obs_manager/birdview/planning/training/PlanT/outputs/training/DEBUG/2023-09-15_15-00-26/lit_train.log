@@ -1,0 +1,5 @@
+[2023-09-15 15:00:26,426][root][INFO] - Longest6 training with all towns
+[2023-09-15 15:00:26,427][root][INFO] - Found 0 Route folders containing 3 datasets.
+[2023-09-15 15:00:26,432][root][INFO] - Train set size: 0
+[2023-09-15 15:00:26,432][root][INFO] - Validation set size: 0
+[2023-09-15 15:00:26,432][root][INFO] - Use default sampler

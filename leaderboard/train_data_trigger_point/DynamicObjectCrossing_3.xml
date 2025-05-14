@@ -1,0 +1,990 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="043" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+      <position x="-343.4" y="5056.3" z="374.2" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="228" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+      <position x="-629.1" y="4333.8" z="373.1" yaw="136.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="341" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+      <position x="246.0" y="3643.4" z="362.6" yaw="90.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="49" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+      <position x="1818.7" y="1951.3" z="360.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="56" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+      <position x="3479.3" y="2442.6" z="360.6" yaw="89.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.haybalelb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="938" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+      <position x="1576.3" y="4507.5" z="365.9" yaw="9.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1033" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+      <position x="3715.5" y="4538.1" z="368.1" yaw="98.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1253" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+      <position x="-236.4" y="6339.8" z="357.1" yaw="179.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+        <distance value="60"/>
+        <direction value="left"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="17"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1314" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+      <position x="3660.9" y="4876.0" z="367.9" yaw="99.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+        <distance value="50"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="149" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+      <position x="2010.8" y="4047.9" z="358.5" yaw="99.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+        <distance value="45"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="18"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1728" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+      <position x="-626.8" y="6293.3" z="359.5" yaw="275.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="0"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2018" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+      <position x="-29.8" y="4407.6" z="372.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+        <distance value="55"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="219" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+      <position x="308.8" y="5915.4" z="361.5" yaw="175.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="4"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2215" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+      <position x="2710.9" y="2062.1" z="354.7" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2427" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+      <position x="-392.1" y="3736.5" z="368.2" yaw="89.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+        <distance value="40"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2520" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+      <position x="3056.5" y="-909.1" z="330.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2823" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="90.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+      <position x="-3218.4" y="2847.8" z="357.3" yaw="240.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+        <distance value="50"/>
+        <blocker_model value="vehicle.tesla.model3"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="2927" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="20.0" precipitation="30.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+      <position x="-3775.8" y="869.3" z="342.3" yaw="-100.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+        <distance value="55"/>
+        <blocker_model value="vehicle.mini.cooper_s"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3044" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+      <position x="-343.4" y="5056.3" z="374.2" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3228" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+      <position x="-629.1" y="4333.8" z="373.1" yaw="136.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3341" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="50.0" wetness="50.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="50.0" precipitation_deposits="100.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="10.0"/>
+    </weathers>
+    <waypoints>
+      <position x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+      <position x="246.0" y="3643.4" z="362.6" yaw="90.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="349" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+      <position x="1818.7" y="1951.3" z="360.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="356" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+      <position x="3479.3" y="2442.6" z="360.6" yaw="89.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.haybalelb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="3938" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+      <position x="1576.3" y="4507.5" z="365.9" yaw="9.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4033" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+      <position x="3715.5" y="4538.1" z="368.1" yaw="98.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4253" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+      <position x="-236.4" y="6339.8" z="357.1" yaw="179.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+        <distance value="60"/>
+        <direction value="left"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="17"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4314" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+      <position x="3660.9" y="4876.0" z="367.9" yaw="99.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+        <distance value="50"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="449" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+      <position x="2010.8" y="4047.9" z="358.5" yaw="99.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+        <distance value="45"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="18"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="4728" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+      <position x="-626.8" y="6293.3" z="359.5" yaw="275.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="0"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5018" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+      <position x="-29.8" y="4407.6" z="372.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+        <distance value="55"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="519" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+      <position x="308.8" y="5915.4" z="361.5" yaw="175.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="4"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5215" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+      <weather route_percentage="100" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+      <position x="2710.9" y="2062.1" z="354.7" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5427" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+      <position x="-392.1" y="3736.5" z="368.2" yaw="89.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+        <distance value="40"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5520" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+      <position x="3056.5" y="-909.1" z="330.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5823" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="70.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+      <position x="-3218.4" y="2847.8" z="357.3" yaw="240.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+        <distance value="50"/>
+        <blocker_model value="vehicle.tesla.model3"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="5927" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="90.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="0.0" fog_density="7.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="50.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+      <position x="-3775.8" y="869.3" z="342.3" yaw="-100.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+        <distance value="55"/>
+        <blocker_model value="vehicle.mini.cooper_s"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6044" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+      <position x="-343.4" y="5056.3" z="374.2" yaw="0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-458.4" y="5055.9" z="374.9" yaw="0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6228" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+      <position x="-629.1" y="4333.8" z="373.1" yaw="136.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-582.0" y="4195.3" z="373.0" yaw="-0.1"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6341" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="100.0"/>
+    </weathers>
+    <waypoints>
+      <position x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+      <position x="246.0" y="3643.4" z="362.6" yaw="90.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="330.2" y="3595.2" z="365.9" yaw="179.9"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="649" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+      <position x="1818.7" y="1951.3" z="360.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1783.4" y="2039.3" z="361.4" yaw="269.8"/>
+        <distance value="30"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="656" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+      <position x="3479.3" y="2442.6" z="360.6" yaw="89.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3578.9" y="2405.9" z="361.4" yaw="179.8"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.haybalelb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="6938" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+      <position x="1576.3" y="4507.5" z="365.9" yaw="9.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="1482.1" y="4492.0" z="366.7" yaw="9.3"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7033" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+      <position x="3715.5" y="4538.1" z="368.1" yaw="98.9"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3731.5" y="4435.2" z="368.3" yaw="98.9"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.busstoplb"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7253" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+      <position x="-236.4" y="6339.8" z="357.1" yaw="179.7"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-72.2" y="6338.9" z="356.8" yaw="179.7"/>
+        <distance value="60"/>
+        <direction value="left"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="17"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7314" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+      <position x="3660.9" y="4876.0" z="367.9" yaw="99.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="3678.9" y="4769.6" z="367.8" yaw="99.6"/>
+        <distance value="50"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="749" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+      <position x="2010.8" y="4047.9" z="358.5" yaw="99.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2015.9" y="4016.1" z="358.1" yaw="99.2"/>
+        <distance value="45"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="18"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="7728" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+      <position x="-626.8" y="6293.3" z="359.5" yaw="275.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-628.5" y="6322.1" z="359.4" yaw="271.4"/>
+        <distance value="35"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="0"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8018" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+      <position x="-29.8" y="4407.6" z="372.5" yaw="-0.1"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-132.0" y="4407.8" z="372.9" yaw="-0.1"/>
+        <distance value="55"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="819" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+      <position x="308.8" y="5915.4" z="361.5" yaw="175.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="467.0" y="5849.8" z="364.8" yaw="154.8"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="4"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8215" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="60.0" precipitation_deposits="60.0" wetness="80.0" wind_intensity="60.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="60.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+      <position x="2710.9" y="2062.1" z="354.7" yaw="-0.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2571.7" y="2063.0" z="355.8" yaw="-0.3"/>
+        <distance value="45"/>
+        <blocker_model value="static.prop.foodcart"/>
+        <crossing_angle value="7"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8427" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+      <position x="-392.1" y="3736.5" z="368.2" yaw="89.6"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-471.8" y="3706.1" z="365.9" yaw="-0.0"/>
+        <distance value="40"/>
+        <direction value="right"/>
+        <blocker_model value="static.prop.advertisement"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8520" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+      <position x="3056.5" y="-909.1" z="330.0" yaw="-0.2"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="2871.4" y="-908.4" z="330.8" yaw="-0.2"/>
+        <distance value="50"/>
+        <blocker_model value="static.prop.container"/>
+        <crossing_angle value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8823" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="15.0" fog_density="2.0"/>
+      <weather route_percentage="100" cloudiness="40.0" precipitation="0.0" precipitation_deposits="50.0" wetness="0.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+      <position x="-3218.4" y="2847.8" z="357.3" yaw="240.3"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3147.2" y="2943.6" z="357.6" yaw="226.5"/>
+        <distance value="50"/>
+        <blocker_model value="vehicle.tesla.model3"/>
+        <crossing_angle value="20"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="8927" town="Town12">
+    <weathers>
+      <weather route_percentage="0" cloudiness="60.0" precipitation="30.0" precipitation_deposits="50.0" wetness="60.0" wind_intensity="30.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="100.0" precipitation="100.0" precipitation_deposits="90.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-90.0" fog_density="3.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+      <position x="-3775.8" y="869.3" z="342.3" yaw="-100.4"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+        <trigger_point x="-3744.0" y="967.3" z="344.1" yaw="-115.6"/>
+        <distance value="55"/>
+        <blocker_model value="vehicle.mini.cooper_s"/>
+        <crossing_angle value="15"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

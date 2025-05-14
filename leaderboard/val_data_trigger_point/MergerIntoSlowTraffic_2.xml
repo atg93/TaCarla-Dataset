@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="313" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="15.0" precipitation="20.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="30.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="2.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-377.2" y="5990.9" z="154.6" yaw="-144.6"/>
+      <position x="1257.7" y="1955.9" z="148.6" yaw="91.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTraffic_2" type="MergerIntoSlowTraffic">
+        <trigger_point x="-377.2" y="5990.9" z="154.6" yaw="-144.6"/>
+        <start_actor_flow x="-373.2" y="5946.7" z="154.6"/>
+        <end_actor_flow x="-687.3" y="5892.9" z="149.4"/>
+        <source_dist_interval from="20" to="35"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+  <route id="1313" town="Town13">
+    <weathers>
+      <weather route_percentage="0" cloudiness="40.0" precipitation="60.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="25.0" sun_azimuth_angle="-1.0" sun_altitude_angle="45.0" fog_density="3.0"/>
+      <weather route_percentage="100" cloudiness="80.0" precipitation="0.0" precipitation_deposits="50.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="-1.0" sun_altitude_angle="-45.0" fog_density="6.0"/>
+    </weathers>
+    <waypoints>
+      <position x="-377.2" y="5990.9" z="154.6" yaw="-144.6"/>
+      <position x="1257.7" y="1955.9" z="148.6" yaw="91.0"/>
+    </waypoints>
+    <scenarios>
+      <scenario name="MergerIntoSlowTraffic_2" type="MergerIntoSlowTraffic">
+        <trigger_point x="-377.2" y="5990.9" z="154.6" yaw="-144.6"/>
+        <start_actor_flow x="-373.2" y="5946.7" z="154.6"/>
+        <end_actor_flow x="-687.3" y="5892.9" z="149.4"/>
+        <source_dist_interval from="20" to="35"/>
+        <flow_speed value="10"/>
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

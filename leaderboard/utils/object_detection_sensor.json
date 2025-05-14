@@ -1,0 +1,80 @@
+[
+      {
+            "type": "sensor.camera.rgb",
+            "x": 0.70079118954,
+            "y": 0.0159456324149,
+            "z": 1.51095763913,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 70,
+            "id": "front"
+      },
+      {
+            "type": "sensor.camera.rgb",
+            "x": 0.5508477543,
+            "y": 0.493404796419,
+            "z": 1.49574800619,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": 55.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 70,
+            "id": "front_right"
+      },
+      {
+            "type": "sensor.camera.rgb",
+            "x": 0.52387798135,
+            "y": -0.494631336551,
+            "z": 1.50932822144,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": -55.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 70,
+            "id": "front_left"
+      },
+      {
+            "type": "sensor.camera.rgb",
+            "x": -1.5283260309358,
+            "y": 0.00345136761476,
+            "z": 1.57910346144,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": -180.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 110,
+            "id": "back"
+      },
+      {
+            "type": "sensor.camera.rgb",
+            "x": -0.53569100218,
+            "y": -0.484795032713,
+            "z": 1.59097014818,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": -110.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 70,
+            "id": "back_left"
+      },
+      {
+            "type": "sensor.camera.rgb",
+            "x": -0.5148780988,
+            "y": 0.480568219723,
+            "z": 1.56239545128,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "yaw": 110.0,
+            "width": 1600,
+            "height": 900,
+            "fov": 70,
+            "id": "back_right"
+      }
+]

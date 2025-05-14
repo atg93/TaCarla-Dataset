@@ -1,0 +1,2 @@
+working_dir: /home/tg22/remote-pycharm/plant
+carla_path: ${user.working_dir}/carla

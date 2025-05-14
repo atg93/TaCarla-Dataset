@@ -1,0 +1,41 @@
+Run started at: 09/10/2023 10:43:16
+Git state: 5c3b69b668cd76dc133a7860e47ef35e9ebcbd15
+Git commit: commit 5c3b69b668cd76dc133a7860e47ef35e9ebcbd15
+Author: Tugrul Gorgulu <tugrul.gorgulu@togg.com.tr>
+Date:   Fri Sep 15 14:59:11 2023 +0300
+
+    creating plant project
+Git branch: * main
+
+diff --git a/training/PlanT/lit_train.py b/training/PlanT/lit_train.py
+index 180cdc0..b1b8cbb 100644
+--- a/training/PlanT/lit_train.py
++++ b/training/PlanT/lit_train.py
+@@ -55,7 +55,7 @@ def main(cfg):
+         project=cfg.exp_folder_name,
+         name=cfg.wandb_name,
+         config=OmegaConf.to_container(cfg, resolve=True, throw_on_missing=True),
+-        entity="seqdrive",
++        entity="bamal",
+     )
+     Path(f"{cfg.model.training.ckpt_path}/TBLogger").mkdir(parents=True, exist_ok=True)
+     TBlogger = TensorBoardLogger(cfg.model.training.ckpt_path, name="TBLogger")
+diff --git a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm b/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm
+deleted file mode 100644
+index fe9ac28..0000000
+Binary files a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-shm and /dev/null differ
+diff --git a/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-wal b/training/PlanT/outputs/training/DEBUG/2023-09-15_14-50-54/None/dataset_cache/cache.db-wal
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/training/config/config.yaml b/training/config/config.yaml
+index ca0b2f2..34134c1 100644
+--- a/training/config/config.yaml
++++ b/training/config/config.yaml
+@@ -34,6 +34,6 @@ expname: DEBUG
+ wandb_name: training_PlanT_${hydra:job.override_dirname}
+ save_dir: ${hydra:run.dir}
+ 
+-data_dir: ${user.working_dir}/data/PlanT/PlanT_data_1 # Path to the data directory of the first part of the dataset (ending '_1')
++data_dir: /workspace/tg22/plant_dataset/data/PlanT/PlanT_data_1 #${user.working_dir}/data/PlanT/PlanT_data_1 # Path to the data directory of the first part of the dataset (ending '_1')
+ 
+ 
