@@ -47,8 +47,11 @@ To run the code, you can simply create a virtual environment with the following 
 Required Python libraries in requirements.txt
 
 To run the code, you can simply create a virtual environment with the following commands:
+
 conda create --name tacarla python=3.8
+
 source activate tacarla
+
 pip install -r requirements.txt
 
 or 
