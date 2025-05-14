@@ -37,6 +37,7 @@ To run Carla simulation please run this command:
 singularity run --nv --bind /datasets,/workspace,/media *CONTAINER_PATH* *CARLA_PATH* -RenderOffScreen -graphicsadapter=0 -nosound -carla-rpc-port=2000
 
 CONTAINER_PATH should be like: //home/tg22/containers/carla_15.sif
+
 CARLA_PATH should be like: ./home/tg22/carla_9_15/CarlaUE4.sh
 
 After that please, 
