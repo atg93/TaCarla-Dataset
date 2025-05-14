@@ -61,4 +61,6 @@ Alternatively, you can use the Singularity container from here:
 
 The parameters in the main function of leaderboard_evaluator.py—'TOWN_NAME', 'code_path', 'DATASAVEPATH', and 'TEAMCODE_PATH'—need to be arranged properly for the code to run correctly. In a later release, these parameters will be added to config.yaml.
 
+To begin collecting data, please run:
+
 python TaCarla_Dataset/leaderboard/leaderboard_evaluator.py --agent=/leaderboard/autoagents/traditional_agents_0.py --port=2000 --traffic-manager-port=6000 --debug=0 --track=MAP --record=1 --routes=train_data_trigger_point/SignalizedJunctionLeftTurn_1.xml
