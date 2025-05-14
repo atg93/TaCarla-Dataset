@@ -58,6 +58,8 @@ or
 
 Alternatively, you can use the Singularity container from here:
 
+https://drive.google.com/file/d/1WEUG6WvVbzT1tB6IVhmmvjHbqvDF-sPK/view?usp=drive_link
+
 
 
 # Collecting Data
