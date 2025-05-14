@@ -33,4 +33,4 @@ Python 3.x: Python programming language (preferably Python 3.7 or later).
 
 Required Python libraries in requirements.txt
 
-You can install the required Python libraries by running:
+The parameters in the main function of leaderboard_evaluator.py—'TOWN_NAME', 'code_path', 'DATASAVEPATH', and 'TEAMCODE_PATH'—need to be arranged properly for the code to run correctly. In a later release, these parameters will be added to config.yaml.
