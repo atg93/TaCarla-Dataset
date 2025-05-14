@@ -26,7 +26,7 @@ Setup and Installation
 Prerequisites
 Before using this repository, ensure that the following dependencies are installed:
 
-CARLA: A high-fidelity simulator for autonomous driving research. To download CARLA 0.9.15, please visit: https://github.com/carla-simulator/carla/releases . For running the CARLA container, download the "singularity build carla_0.9.15.sif docker-archive://carla_0.9.15.tar" for running carla container
+CARLA: A high-fidelity simulator for autonomous driving research. To download CARLA 0.9.15, please visit: https://github.com/carla-simulator/carla/releases . For running the CARLA container, download the "singularity build carla_0.9.15.sif docker-archive://carla_0.9.15.tar" 
 
 
 Python 3.x: Python programming language (preferably Python 3.7 or later).
