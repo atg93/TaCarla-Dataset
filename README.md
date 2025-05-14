@@ -24,7 +24,7 @@ Ego vehicle control data
 
 Setup and Installation
 Prerequisites
-Before using this repository:
+# Before using this repository:
 
 CARLA: A high-fidelity simulator for autonomous driving research. 
 
@@ -40,7 +40,7 @@ CONTAINER_PATH should be like: //home/tg22/containers/carla_15.sif
 
 CARLA_PATH should be like: ./home/tg22/carla_9_15/CarlaUE4.sh
 
-After that please, 
+#After that please, 
 
 Python 3.x: Python programming language (preferably Python 3.8.10).
 
