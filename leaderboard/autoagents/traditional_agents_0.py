@@ -1105,7 +1105,7 @@ class TraditionalAgent(AutonomousAgent):
         if self.save_control_label and self.save_control != None and self.scenario_instance_name != 'None_1':
             button_press = 0
             self.save_control(control, ego_loc, ego_rot, ego_speed, button_press, self._vehicle.id)
-        print("input_data[tl_light_stop]: ",input_data["tl_light_stop"])
+        
         if "tl_light_stop" in input_data.keys() and input_data["tl_light_stop"]:
             control = carla.VehicleControl(throttle=0.0, steer=control.steer, brake=1.0)
 
